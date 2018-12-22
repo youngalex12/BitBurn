@@ -1,7 +1,7 @@
 while (true) {
     grow('joesguns');
+    weaken('joesguns');
     grow('joesguns');
-    grow('joesguns');
-    grow('joesguns');
+    weaken('joesguns');
     hack('joesguns');
 }
