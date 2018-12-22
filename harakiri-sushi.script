@@ -1,7 +1,7 @@
 while (true) {
     grow('harakiri-sushi');
+    weaken('harakiri-sushi');
     grow('harakiri-sushi');
-    grow('harakiri-sushi');
-    grow('harakiri-sushi');
+    weaken('harakiri-sushi');
     hack('harakiri-sushi');
 }
