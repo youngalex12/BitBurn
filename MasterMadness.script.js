@@ -1,0 +1,16 @@
+wget("https://raw.githubusercontent.com/youngalex12/BitBurn/master/Pull.script", "Pull.script", "home");
+exec('Pull.script', 'home');
+wget("https://raw.githubusercontent.com/youngalex12/BitBurn/master/Pull.script", "Pull.script", "foodnstuff");
+exec('Pull.script', 'foodnstuff');
+wget("https://raw.githubusercontent.com/youngalex12/BitBurn/master/Pull.script", "Pull.script", "nectar-net");
+exec('Pull.script', 'nectar-net');
+wget("https://raw.githubusercontent.com/youngalex12/BitBurn/master/Pull.script", "Pull.script", "sigma-cosmetics");
+exec('Pull.script', 'sigma-cosmetics');
+wget("https://raw.githubusercontent.com/youngalex12/BitBurn/master/Pull.script", "Pull.script", "neo-net");
+exec('Pull.script', 'neo-net');
+wget("https://raw.githubusercontent.com/youngalex12/BitBurn/master/Pull.script", "Pull.script", "joesguns");
+exec('Pull.script', 'joesguns');
+wget("https://raw.githubusercontent.com/youngalex12/BitBurn/master/Pull.script", "Pull.script", "hong-fang-tea");
+exec('Pull.script', 'hong-fang-tea');
+wget("https://raw.githubusercontent.com/youngalex12/BitBurn/master/Pull.script", "Pull.script", "David");
+exec('Pull.script', 'harakiri-sushi');
