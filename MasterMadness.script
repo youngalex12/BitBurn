@@ -12,5 +12,7 @@ wget("https://raw.githubusercontent.com/youngalex12/BitBurn/master/Pull.script",
 exec('Pull.script', 'joesguns');
 wget("https://raw.githubusercontent.com/youngalex12/BitBurn/master/Pull.script", "Pull.script", "hong-fang-tea");
 exec('Pull.script', 'hong-fang-tea');
-wget("https://raw.githubusercontent.com/youngalex12/BitBurn/master/Pull.script", "Pull.script", "David");
+wget("https://raw.githubusercontent.com/youngalex12/BitBurn/master/Pull.script", "Pull.script", "harakiri-sushi");
 exec('Pull.script', 'harakiri-sushi');
+wget("https://raw.githubusercontent.com/youngalex12/BitBurn/master/Pull.script", "Pull.script");
+run('Pull.script')
