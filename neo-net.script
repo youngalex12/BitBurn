@@ -1,6 +1,6 @@
 while (true) {
     grow('neo-net');
-    weaken('neo-net');
+    grow('neo-net');
     grow('neo-net');
     weaken('neo-net');
     hack('neo-net');
