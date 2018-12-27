@@ -1,6 +1,6 @@
 while (true) {
     grow('sigma-cosmetics');
-    weaken('sigma-cosmetics');
+    grow('sigma-cosmetics');
     grow('sigma-cosmetics');
     weaken('sigma-cosmetics');
     hack('sigma-cosmetics');
