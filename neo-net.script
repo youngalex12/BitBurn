@@ -1,7 +1,10 @@
-while (true) {
-    grow('neo-net');
-    grow('neo-net');
-    grow('neo-net');
+if (getServerSecurityLevel('neo-net') > getServerMinSecurityLevel('neo-net')) {
     weaken('neo-net');
-    hack('neo-net');
+} else {
+    if (getServerMoneyAvailable('neo-net') < getServerMaxMoney('neo-net')) {
+        grow('neo-net');
+    } else {
+        hack('neo-net');
+    }
+
 }
