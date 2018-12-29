@@ -1,3 +1,4 @@
+while (true) {
 if (getServerSecurityLevel('joesguns') > getServerMinSecurityLevel('joesguns')) {
     weaken('joesguns');
 } else {
@@ -7,4 +8,5 @@ if (getServerSecurityLevel('joesguns') > getServerMinSecurityLevel('joesguns')) 
         hack('joesguns');
     }
 
+}
 }
