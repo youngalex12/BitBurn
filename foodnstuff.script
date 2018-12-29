@@ -1,10 +1,12 @@
-if (getServerSecurityLevel('foodnstuff') > getServerMinSecurityLevel('foodnstuff')) {
-    weaken('foodnstuff');
-} else {
-    if (getServerMoneyAvailable('foodnstuff') < getServerMaxMoney('foodnstuff')) {
-        grow('foodnstuff');
+while (true) {
+    if (getServerSecurityLevel('foodnstuff') > getServerMinSecurityLevel('foodnstuff')) {
+        weaken('foodnstuff');
     } else {
-        hack('foodnstuff');
-    }
+        if (getServerMoneyAvailable('foodnstuff') < getServerMaxMoney('foodnstuff')) {
+            grow('foodnstuff');
+        } else {
+            hack('foodnstuff');
+        }
 
+    }
 }
