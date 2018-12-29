@@ -1,7 +1,10 @@
-while (true) {
-    grow('harakiri-sushi');
-    weaken('harakiri-sushi');
-    grow('harakiri-sushi');
-    grow('harakiri-sushi');
-    hack('harakiri-sushi');
+if (getServerSecurityLevel('harakiri-sush') > getServerMinSecurityLevel('harakiri-sush')) {
+    weaken('harakiri-sush');
+} else {
+    if (getServerMoneyAvailable('harakiri-sush') < getServerMaxMoney('harakiri-sush')) {
+        grow('harakiri-sush');
+    } else {
+        hack('harakiri-sush');
+    }
+
 }
