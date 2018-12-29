@@ -1,10 +1,10 @@
-if (getServerSecurityLevel('harakiri-sush') > getServerMinSecurityLevel('harakiri-sush')) {
-    weaken('harakiri-sush');
+if (getServerSecurityLevel('harakiri-sushi') > getServerMinSecurityLevel('harakiri-sushi')) {
+    weaken('harakiri-sushi');
 } else {
-    if (getServerMoneyAvailable('harakiri-sush') < getServerMaxMoney('harakiri-sush')) {
-        grow('harakiri-sush');
+    if (getServerMoneyAvailable('harakiri-sushi') < getServerMaxMoney('harakiri-sushi')) {
+        grow('harakiri-sushi');
     } else {
-        hack('harakiri-sush');
+        hack('harakiri-sushi');
     }
 
 }
