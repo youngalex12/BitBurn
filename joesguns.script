@@ -1,7 +1,10 @@
-while (true) {
-    grow('joesguns');
-    grow('joesguns');
-    grow('joesguns');
+if (getServerSecurityLevel('joesguns') > getServerMinSecurityLevel('joesguns')) {
     weaken('joesguns');
-    hack('joesguns');
+} else {
+    if (getServerMoneyAvailable('joesguns') < getServerMaxMoney('joesguns')) {
+        grow('joesguns');
+    } else {
+        hack('joesguns');
+    }
+
 }
