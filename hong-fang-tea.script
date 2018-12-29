@@ -1,3 +1,4 @@
+while (true) {
 if (getServerSecurityLevel('hong-fang-tea') > getServerMinSecurityLevel('hong-fang-tea')) {
     weaken('hong-fang-tea');
 } else {
@@ -7,4 +8,5 @@ if (getServerSecurityLevel('hong-fang-tea') > getServerMinSecurityLevel('hong-fa
         hack('hong-fang-tea');
     }
 
+}
 }
