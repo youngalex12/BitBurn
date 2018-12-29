@@ -1,7 +1,10 @@
-while (true) {
-    grow('sigma-cosmetics');
-    grow('sigma-cosmetics');
-    grow('sigma-cosmetics');
+if (getServerSecurityLevel('sigma-cosmetics') > getServerMinSecurityLevel('sigma-cosmetics')) {
     weaken('sigma-cosmetics');
-    hack('sigma-cosmetics');
+} else {
+    if (getServerMoneyAvailable('joesguns') < getServerMaxMoney('sigma-cosmetics')) {
+        grow('sigma-cosmetics');
+    } else {
+        hack('sigma-cosmetics');
+    }
+
 }
