@@ -1,7 +1,10 @@
-while (true) {
-    grow('nectar-net');
-    grow('nectar-net');
-    grow('nectar-net');
+if (getServerSecurityLevel('nectar-net') > getServerMinSecurityLevel('nectar-net')) {
     weaken('nectar-net');
-    hack('nectar-net');
+} else {
+    if (getServerMoneyAvailable('nectar-net') < getServerMaxMoney('nectar-net')) {
+        grow('nectar-net');
+    } else {
+        hack('nectar-net');
+    }
+
 }
